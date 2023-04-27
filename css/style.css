@@ -82,11 +82,12 @@ main p{
 }
 
 .main-sec{
-    padding: 50px 0;
+    padding: 50px 0px;
 }
 
 .main-container{
     display: flex;
+    padding-bottom: 150px;
 }
 
 .big-item{
@@ -216,6 +217,10 @@ footer ul li a{
     margin-right: 15px;
 }
 
+.margin-top-180{
+    margin: 180px 0px;
+}
+
 .margin-bot-50{
     margin-bottom: 50px;
 }
@@ -242,3 +247,35 @@ footer ul li a{
     background-repeat: no-repeat;
 }
 
+.cursor{
+    cursor: pointer;
+}
+
+/* (se volessi fare la wave con un div.wave nell'html)
+
+.wave{
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    opacity: 0.04;
+} 
+
+*/
+
+.bg-gray::before, .bg-gray::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/wave.svg);
+    opacity: 0.04;
+    width: 100%;
+    height: 100px;
+    position: relative;   
+}
+
+.bg-gray::before{
+    top: -150px;
+}
+
+.bg-gray::after{
+    bottom: -155px;
+    rotate: 180deg;
+}
