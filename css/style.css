@@ -90,12 +90,10 @@ main p{
 }
 
 .big-item{
-    height: 500px;
     width: 60%;
 }
 
 .small-item{
-    height: 500px;
     width: 40%;
 }
 
