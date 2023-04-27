@@ -89,7 +89,6 @@ main p{
 
 .main-container{
     display: flex;
-    padding-bottom: 150px;
 }
 
 .big-item{
@@ -221,6 +220,10 @@ footer ul li a{
 
 .margin-top-180{
     margin: 180px 0px;
+}
+
+.margin-bot-100{
+    margin-bottom: 100px;
 }
 
 .margin-bot-50{
