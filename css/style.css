@@ -284,3 +284,21 @@ footer ul li a{
     bottom: -155px;
     rotate: 180deg;
 }
+
+/* hovers */
+
+.btn:hover{
+    background-color: lightgrey;
+}
+
+.btn.style-btn-black:hover{
+    background-color: #424242;
+}
+
+.btn.style-btn-blue:hover{
+    background-color: #6c7bad;
+}
+
+header ul li a:hover, footer ul li a:hover, i.fa-brands:hover{
+    color: lightgray;
+}
